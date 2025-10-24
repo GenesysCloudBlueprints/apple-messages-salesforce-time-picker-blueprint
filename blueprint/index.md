@@ -72,7 +72,7 @@ The integration page can be seen in **IT and Integrations** > **Integrations**.
 
 ## Create and Import the Data Action
 
-The Data Action to import (in JSON format) is in the `/exports` folder in the [blueprint repository](#clone-the-repository "Goes to the Clone the Repository section") named `GetEventsDataAction.json`. You can also get the file directly here: [GetEventsDataAction.json](https://github.com/GenesysCloudBlueprints/scheduling-bot-blueprint/blob/main/exports/GetEventsDataAction.json "Goes to the GetEventsDataAction.json file in GitHub")
+The Data Action to import (in JSON format) is in the `/exports` folder in the [blueprint repository](#clone-the-repository "Goes to the Clone the Repository section") named `GetEventsDataAction.json`. You can also get the file directly here: [GetEventsDataAction.json](https://github.com/GenesysCloudBlueprints/apple-messages-salesforce-time-picker-blueprint/blob/main/exports/GetEventsDataAction.json "Goes to the GetEventsDataAction.json file in GitHub")
 
 You can import the data action using the following steps:
 
@@ -89,7 +89,7 @@ You can import the data action using the following steps:
 
 3. From the **Save** menu, click **Import**.
 
-4. Select the `AppleMessagesSalesforceDigitalBot.i3BotFlow` file from `/exports` or you can [get it here](https://github.com/GenesysCloudBlueprints/scheduling-bot-blueprint/blob/main/exports/AppleMessagesSalesforceDigitalBot.i3BotFlow "Goes to the AppleMessagesSalesforceDigitalBot.i3BotFlow file in GitHub") and click **Import**.
+4. Select the `AppleMessagesSalesforceDigitalBot.i3DigitalBotFlow` file from `/exports` or you can [get it here](https://github.com/GenesysCloudBlueprints/apple-messages-salesforce-time-picker-blueprint/blob/main/exports/AppleMessagesSalesforceDigitalBot.i3DigitalBotFlow "Goes to the AppleMessagesSalesforceDigitalBot.i3DigitalBotFlow file in GitHub") and click **Import**.
 
 5. Ensure that the data actions in the bot flow are connected to the [data actions you just created](#create-and-import-the-data-action "Goes to the Create and Import the Data Action section") and have the given Inputs and Success Outputs. Ensure that the `ownerId` is set to the events created or organized to the targeted user. The queue should also be changed to the queue that you want the flow to be routed to when the user selects the "Talk to an Agent" option.
 
