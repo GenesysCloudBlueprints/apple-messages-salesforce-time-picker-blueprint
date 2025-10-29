@@ -19,7 +19,6 @@ A consumer using an Apple iOS device engages with a brand to book an appointment
 ## Solution Components
 
 * **Apple Messages for Business**: a customer communication platform that lets businesses connect with consumers directly through the native Messages app on iOS devices, enabling secure, branded, and interactive conversations.
-Genesys Cloud: A suite of Genesys Cloud services for enterprise-grade communications, collaboration, and contact center management. In this solution, you use an Apple Messages integration, an Architect digital bot flow and a data action.
 * **Salesforce**: A cloud-based CRM platform. In this scenario we use Salesforce’s Calendar API to retrieve calendar events.
 * **Genesys Cloud**: A suite of services for enterprise-grade communications, collaboration, and contact center management.
   * **Architect Digital Bot Flow**: A web-based design tool, controlling how Genesys Cloud handles inbound or outbound interactions. In this solution, an inbound message flow precedes a digital bot flow. The bot flow is used to connect to the third party system and to compose the time picker message.
